@@ -108,7 +108,7 @@ the information is read from the current index instead.
 	When `--numstat` has been given, do not munge pathnames,
 	but use a NUL-terminated machine-readable format.
 +
-Without this option, pathnames with "unusual" characters are munged as
+Without this option, pathnames with "unusual" characters are quoted as
 explained for the configuration variable `core.quotePath` (see
 linkgit:git-config[1]).
 
